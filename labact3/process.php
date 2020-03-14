@@ -2,7 +2,7 @@
 
 session_start();
 
-$mysqli = new mysqli("localhost", "root", "", "crud") or die(mysqli_error($mysqli));
+$mysqli = new mysqli("cindyjaiserver.mysql.database.azure.com", "CindyJai@cindyjaiserver", "Cinjai123", "cruddb") or die(mysqli_error($mysqli));
 
 $id = 0;
 $update = false;
