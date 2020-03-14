@@ -1,0 +1,66 @@
+/* These are codes for div */
+
+#header {
+	background: linear-gradient(to bottom, #99ffcc 0%, #ffffcc 100%);
+	/*background-color:#33ccff;*/
+	color:white;
+	text-align:center;
+	height:100px;
+	width:800px
+;	text-align:center;
+}
+
+#left {
+	background: linear-gradient(to bottom, #99ff99 0%, #ffffcc 100%);
+	height:400px;
+	width:300px;
+	float:left;
+
+}
+
+#right {
+	background: linear-gradient(to bottom, #66ff33 0%, #99ff66 100%);
+}
+
+#footer {
+	background-color:red;
+}
+/* Codes for Tables */
+table{
+	padding-left: 20px;
+}
+
+
+
+/* Codes for headers*/
+h1 {
+	color: blue;
+}
+
+h2 {
+	color:yellow;
+}
+
+h3 {
+	color:red;
+}
+h4{
+	color:white;
+}
+
+#wrapper {
+margin-left:auto;
+margin-right:auto;
+width:800px;
+}
+
+
+
+
+
+
+
+
+
+/* others */
+

@@ -1,0 +1,40 @@
+<html>
+<body>
+<center>
+	<h1>Buy Now</h1><br>
+	<form action="#" method="POST">
+		<table>
+			<tr>
+				<th>SELECT</th>
+				<th>FRUITS</th>
+				<th>PRICE</th>
+				<th>QTY</th>
+			</tr>
+			<tr>
+				<td><input type="checkbox" value="apple" name="fruit"></td>
+				<td>Apple</td>
+				<td>50</td>
+				<td><input type="text" name="qty"></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" value="apple" name="fruit"></td>
+				<td>Manga</td>
+				<td>60</td>
+				<td><input type="text" name="qty"></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" value="apple" name="fruit"></td>
+				<td>Orange</td>
+				<td>45</td>
+				<td><input type="text" name="qty"></td>
+			</tr>
+			<tr>
+				<td colspan="6" align="center">
+				<input type="submit"  name="btnSubmit" value="Submit">
+				</td>
+			</tr>
+		</table>
+	</form>
+</center>
+</body>
+</html>

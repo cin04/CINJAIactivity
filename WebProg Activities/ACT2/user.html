@@ -1,0 +1,107 @@
+<?php
+
+if(isset($_GET['fName'])){ 
+		echo "First Name:" .$_GET['fName'];
+	}
+
+?>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+		
+		<style type="text/css">
+	
+		table, td {
+			border: 1px solid #b3b300;
+		
+		}
+		body{
+			background-color: #006400;
+			font-style: bold;
+		}
+		fieldset {
+			padding:10px;
+			width:480px;
+			line-height:1.2;
+		}
+	</style>
+	</head>
+	
+	<body>
+		<form action="user.php" method="get">
+			<fieldset style="border: #47a56a 2px solid; background-color: #006400">
+					<table>
+						<tr>
+							<td><strong>First Name:</strong></td> 
+							<td><input type="text" size="46" name="fName"></td>
+						</tr>
+						<tr>
+							<td><strong>Last Name:</strong></td> 
+							<td><input type="text" size="46" name="lName"></td>
+						</tr>
+						<tr>
+							<td><strong>Gender:</strong></td> 
+							<td><input type="radio" value="male" checked>Male&nbsp;
+								<input type="radio" value="female">Female</td>
+						</tr>
+						<tr>
+							<td><strong>College:</strong></td>
+							<td>
+								<select size="4">
+									<option value="cee" >CEE</option>
+									<option value="case">CASE</option>
+									<option value="cce" selected>CCE</option>
+									<option value="cte">CTE</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td><strong>Course:</strong></td>
+							<td>
+								<select>
+									<option value="is" >IS</option>
+									<option value="it">IT</option>
+									<option value="cs">CS</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td><strong>Contact Number:</strong></td> 
+							<td><input type="text" size="46"></td>
+						</tr>
+						<tr>
+							<td><strong>Email Address:</strong></td> 
+							<td><input type="text" size="46"></td>
+						</tr>
+						<tr>
+							<td><strong>Activities:</strong></td>
+							<td>
+								<input type="checkbox">Swimming&nbsp;<input type="checkbox">Biking&nbsp;
+								<input type="checkbox">Sleeping&nbsp;<input type="checkbox" checked>Studying&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td><strong>Description:</strong></td> 
+							<td>
+								<textarea rows="4" cols="44">
+								</textarea>
+							</td>
+						</tr>	
+						<tr>
+							<td><strong>Other Comments:</strong></td> 
+							<td>
+								<textarea rows="4" cols="44">
+								</textarea>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" align="center"><button type="submit" name="submit" formtarget="_blank">Submit</button></td>
+						</tr>
+					</table>
+			</fieldset>
+		</form>
+	</body>
+</html>
